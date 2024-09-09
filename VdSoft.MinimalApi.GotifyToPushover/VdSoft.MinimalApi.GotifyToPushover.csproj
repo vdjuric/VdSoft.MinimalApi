@@ -17,6 +17,8 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
+    <Authors>Vladimir Djurić</Authors>
+    <Copyright>Copyright © 2024 Vladimir Djurić</Copyright>
   </PropertyGroup>
 
     <ItemGroup>
