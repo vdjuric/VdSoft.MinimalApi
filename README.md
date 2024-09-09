@@ -23,7 +23,7 @@ using VdSoft.MinimalApi.GotifyToPushover;
 //...
 var builder = WebApplication.CreateBuilder(args);
 //...
-//var app = builder.Build();
+var app = builder.Build();
 
 app.MapGotifyToPushover(new GotifyToPushoverOptions()
 {
