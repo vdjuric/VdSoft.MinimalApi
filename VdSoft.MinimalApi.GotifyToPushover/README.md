@@ -3,10 +3,15 @@ Implements a minimal API endpoint adapter that converts [Gotify notification](ht
 Project doesn't have any third-party dependencies.
 
 NuGet: [VdSoft.MinimalApi.GotifyToPushover](https://www.nuget.org/packages/VdSoft.MinimalApi.GotifyToPushover/)
+```xml
+<PackageReference Include="VdSoft.MinimalApi.GotifyToPushover" Version="1.0.0" />
+```
 
-Motivation: [Proxmox Virtual Environment](https://www.proxmox.com) offers Gotify notifications, but the iOS client for receiving notifications is unfortunately not officially supported. For this reason, I implemented simple minimal API endpoint for .NET Core that listens for Gotify notifications and translates them on the fly into [Pushover](https://pushover.net) requests.
+### Motivation
+[Proxmox Virtual Environment](https://www.proxmox.com) offers Gotify notifications, but the iOS client for receiving notifications is unfortunately not officially supported. For this reason, I implemented simple minimal API endpoint for .NET Core that listens for Gotify notifications and translates them on the fly into [Pushover](https://pushover.net) requests.
 
-Note: The current implementation is minimal and supports only my use case with Proxmox (and other use cases where Gotify JSON requests are sent). You can adapt the code for your own use case, and if possible, you're welcome to submit a PR.
+> [!NOTE]
+> The current implementation is minimal and supports only my use case with Proxmox (and other use cases where Gotify JSON requests are sent). You can adapt the code for your own use case, and if possible, you're welcome to submit a PR.
 
 ### ASP.NET Core, registration example
 
