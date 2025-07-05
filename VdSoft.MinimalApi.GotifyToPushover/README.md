@@ -25,7 +25,7 @@ A minimal Gotify-to-Pushover API endpoint is available as a NuGet package that y
 Alternatively, you can include the source code directly and adapt it to your needs.
 
 ### Motivation
-[Proxmox Virtual Environment](https://www.proxmox.com) offers Gotify notifications, but the iOS client for receiving notifications is unfortunately not officially supported. For this reason, I implemented simple minimal API endpoint for .NET Core that listens for Gotify notifications and translates them on the fly into [Pushover](https://pushover.net) requests.
+[Proxmox Virtual Environment](https://www.proxmox.com) supports Gotify notifications, but unfortunately the Gotify iOS client is not officially supported, while Pushover is. For this reason, I implemented simple minimal API endpoint for .NET Core that listens for Gotify notifications and translates them on the fly into [Pushover](https://pushover.net) requests.
 
 > [!NOTE]
 > The current implementation is minimal and supports only my use case with Proxmox (and other use cases where Gotify JSON requests are sent). You can adapt the code for your own use case, and if possible, you're welcome to submit a PR.
