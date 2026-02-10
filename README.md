@@ -1,7 +1,7 @@
 # Minimal API extensions and utilities for ASP.NET Core
 
 ## VdSoft.MinimalApi.GotifyToPushover
-This simple project provides a minimal API endpoint adapter for ASP.NET Core that transforms [Gotify notification requests](https://gotify.net/) into [Pushover-compatible requests](https://pushover.net) and forwards them to the [Pushover public API](https://pushover.net/api).
+This simple project provides a minimal API endpoint adapter for ASP.NET Core that transforms [Gotify notification requests](https://gotify.net/) into [Pushover-compatible requests](https://pushover.net) and forwards them to the [Pushover public API](https://pushover.net/api). 
 The project has no external library dependencies.
 
 ### Sending test message with cURL
